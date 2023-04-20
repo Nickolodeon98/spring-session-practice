@@ -21,6 +21,10 @@ repositories {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.session:spring-session-core'
+    implementation 'org.springframework.boot:spring-boot-starter-jdbc:3.0.4'
+    implementation 'org.springframework.session:spring-session-jdbc:3.0.0'
+    implementation 'mysql:mysql-connector-java:8.0.32'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf:3.0.4'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.springframework.boot:spring-boot-configuration-processor'
     annotationProcessor 'org.projectlombok:lombok'
